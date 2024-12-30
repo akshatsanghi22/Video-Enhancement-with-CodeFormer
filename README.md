@@ -43,8 +43,7 @@ Usage
 
     Execute the following command:
 
-    python enhance_video.py --input input.mp4 --output output.mp4 --w 0.9
-
+python enhance_video.py --input input.mp4 --output output.mp4 --w 0.9
         --input: Path to the input video file.
         --output: Desired path for the output video file.
         --w: Balance between quality and fidelity (range: 0.1 to 0.9).
@@ -53,11 +52,11 @@ Script Details
 
 The enhance_video.py script performs the following steps:
 
-    Setup: Imports necessary libraries and sets up directories.
-    Frame Extraction: Uses FFmpeg to extract frames from the input video.
-    Frame Enhancement: Enhances each frame using CodeFormer with Real-ESRGAN for background upsampling.
-    Video Reconstruction: Reassembles the enhanced frames into a video using FFmpeg.
-    Audio Preservation: Extracts the original audio from the input video and merges it with the enhanced video.
+    1.Setup: Imports necessary libraries and sets up directories.
+    2.Frame Extraction: Uses FFmpeg to extract frames from the input video.
+    3.Frame Enhancement: Enhances each frame using CodeFormer with Real-ESRGAN for background upsampling.
+    4.Video Reconstruction: Reassembles the enhanced frames into a video using FFmpeg.
+    5.Audio Preservation: Extracts the original audio from the input video and merges it with the enhanced video.
 
 Example
 
