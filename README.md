@@ -44,9 +44,10 @@ Usage
     Execute the following command:
 
 python enhance_video.py --input input.mp4 --output output.mp4 --w 0.9
-        --input: Path to the input video file.
-        --output: Desired path for the output video file.
-        --w: Balance between quality and fidelity (range: 0.1 to 0.9).
+
+             --input: Path to the input video file.
+             --output: Desired path for the output video file.
+             --w: Balance between quality and fidelity (range: 0.1 to 0.9).
 
 Script Details
 
